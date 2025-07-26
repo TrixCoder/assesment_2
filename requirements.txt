@@ -1,0 +1,10 @@
+# ---- GraphQL Stack ----
+gql[requests]==3.5.2         # pins graphql-core<3.2.4[20]
+graphql-core<3.2.4           # avoid 'is_integer' removal[19]
+# ---- Data & Utils ----
+pandas==2.2.1
+numpy==1.26.4
+tqdm==4.66.4
+python-dotenv==1.0.1
+# ---- Optional (raw RPC) ----
+web3==6.14.0
